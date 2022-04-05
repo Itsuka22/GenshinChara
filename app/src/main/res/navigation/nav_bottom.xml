@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/fragmentArticle">
+
+    <fragment
+        android:id="@+id/fragmentArticle"
+        android:name="com.handoyo.genshinchara.fragment.FragmentArticle"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/fragmentHero"
+        android:name="com.handoyo.genshinchara.fragment.FragmentHero"
+        android:label="fragment_hero"
+        tools:layout="@layout/fragment_hero" />
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.handoyo.genshinchara.fragment.FragmentProfile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
